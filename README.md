@@ -3,7 +3,9 @@
 Flashcards for the essential parts of Calculus I that are crucial for success in the class.
 
 <a href="https://realityexpander.github.io/Flashcards/sectioned.html" target="_blank">
-  <img width="485" alt="image" src="https://github.com/user-attachments/assets/f7f0a669-bacc-41f7-bca7-30c191ddd3d4" /></a>
+  <img width="485" alt="image" src="https://github.com/user-attachments/assets/824097bd-0c17-42b2-bc58-96db4b8f95bd" /></a>
+
+
 
 Click Above graphic to open the app.
 
