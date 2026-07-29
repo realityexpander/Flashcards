@@ -1,4 +1,4 @@
-# Calculus Flashcards
+# Calculus I Flashcards
 
 Flashcards for the parts of CalculusI that are required to be memorized to have success in the class.
 
