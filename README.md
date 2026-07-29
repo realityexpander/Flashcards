@@ -7,13 +7,9 @@ Flashcards for the essential parts of Calculus I that are crucial for success in
 
 Click Above graphic to open the app.
 
-## Two versions of the app
-  * ### SECTIONED - https://realityexpander.github.io/Flashcards/sectioned.html
+  * ### https://realityexpander.github.io/Flashcards/index.html
     * Only questions in a particular section are offered.
     * Use "Grab Bag" to offer questions randomly from all sections.
-  * ### RANDOM - https://realityexpander.github.io/Flashcards/random.html  
-    * All questions are randomly offered.
-    * Benefit: The question object array is much simpler than the sectioned version.
    
 ### Conversation that generated the App
   * https://share.gemini.google/X0NRzjit0m43 (public link)
