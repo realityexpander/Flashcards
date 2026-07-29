@@ -1,6 +1,6 @@
 # Calculus I Flashcards
 
-Flashcards for the parts of CalculusI that are required to be memorized to have success in the class.
+Flashcards for the essential parts of Calculus I that are crucial for success in the class.
 
 ## Two versions of the app
   * ### SECTIONED - https://realityexpander.github.io/Flashcards/sectioned.html
