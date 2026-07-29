@@ -3,10 +3,10 @@
 Flashcards for the parts of CalculusI that are required to be memorized to have success in the class.
 
 ## Two versions of the app
-  * SECTIONED - https://realityexpander.github.io/Flashcards/sectioned.html
+  * ### SECTIONED - https://realityexpander.github.io/Flashcards/sectioned.html
     * Only questions in a particular section are offered.
     * Use "Grab Bag" to offer questions from all sections.
-  * LINEAR - https://realityexpander.github.io/Flashcards/linear.html  
+  * ### RANDOM - https://realityexpander.github.io/Flashcards/random.html  
     * All questions are randomly offered.
     * Benefit: The question object array is much simpler than the sectioned version.
    
