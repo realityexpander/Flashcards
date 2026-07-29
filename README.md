@@ -1,6 +1,6 @@
 # Calculus Flashcards
 
-Flashcards for the parts of Calculus that need to be memorized.
+Flashcards for the parts of CalculusI that are required to be memorized to have success in the class.
 
 ## Two versions of the app
   * SECTIONED
