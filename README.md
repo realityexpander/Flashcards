@@ -3,10 +3,13 @@
 Flashcards for the parts of Calculus that need to be memorized.
 
 ## Two versions of the app
-  * All questions are randomly offered.
-    * https://realityexpander.github.io/Flashcards/linear.html  
-  * Only questions in a particular section are offered.
+  * SECTIONED
+    * Only questions in a particular section are offered. Use "Grab Bag" to offer questions from all sections.
     * https://realityexpander.github.io/Flashcards/sectioned.html
+  * LINEAR
+    * All questions are randomly offered.
+    * Benefit: The question object array is much simpler than the sectioned version.
+    * https://realityexpander.github.io/Flashcards/linear.html  
    
 ### Conversation that generated the App
   * https://share.gemini.google/X0NRzjit0m43 (public link)
