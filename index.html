@@ -147,6 +147,23 @@
       { section: 2, q: "f'(x) = \\lim_{h \\to 0} \\dots", opts: ["\\frac{f(x+h) - f(x)}{h}", "\\frac{f(x+h) + f(x)}{h}", "\\frac{f(x) - f(h)}{h}"], ans: 0 },
       { section: 2, q: "\\lim_{x \\to 0} \\frac{\\sin(x)}{x}", opts: ["0", "1", "\\infty"], ans: 1 },
       { section: 2, q: "\\lim_{x \\to 0} \\frac{1 - \\cos(x)}{x}", opts: ["1", "0", "\\infty"], ans: 1 },
+      { section: 2, q: "\\text{A function } f \\text{ is continuous at } c \\text{ if } \\lim_{x \\to c} f(x) = \\dots", opts: ["f(c)", "0", "\\infty"], ans: 0 },
+      { section: 2, q: "\\lim_{x \\to c} [k] \\text{ (where } k \\text{ is a constant)}", opts: ["c", "k", "0"], ans: 1 },
+      { section: 2, q: "\\lim_{x \\to c} [x]", opts: ["c", "x", "1"], ans: 0 },
+      { section: 2, q: "\\lim_{x \\to c} [f(x) + g(x)] \\text{ (where limits are } L \\text{ and } K)", opts: ["L + K", "L \\cdot K", "L - K"], ans: 0 },
+      { section: 2, q: "\\lim_{x \\to c} [f(x)g(x)] \\text{ (where limits are } L \\text{ and } K)", opts: ["L + K", "L \\cdot K", "\\frac{L}{K}"], ans: 1 },
+      { section: 2, q: "\\text{If } h(x) \\le f(x) \\le g(x) \\text{ and } \\lim_{x \\to c} h(x) = L = \\lim_{x \\to c} g(x)\\text{, then } \\lim_{x \\to c} f(x) = \\dots", opts: ["0", "c", "L"], ans: 2 },
+      { section: 2, q: "\\text{The line } y = L \\text{ is a horizontal asymptote if } \\lim_{x \\to \\infty} f(x) = \\dots", opts: ["\\infty", "L", "0"], ans: 1 },
+      { section: 2, q: "\\text{The line } x = c \\text{ is a vertical asymptote if } \\lim_{x \\to c^+} f(x) = \\dots", opts: ["c", "L", "\\pm \\infty"], ans: 2 },
+      { section: 2, q: "f'(c) = \\lim_{x \\to c} \\dots \\text{ (Alternative Derivative Form)}", opts: ["\\frac{f(x) - f(c)}{x - c}", "\\frac{f(x+h) - f(x)}{h}", "\\frac{f(c) - f(x)}{x - c}"], ans: 0 },
+      { section: 2, q: "\\lim_{x \\to \\infty} \\frac{a_n x^n + \\dots}{b_n x^n + \\dots}", opts: ["0", "\\infty", "\\frac{a_n}{b_n}"], ans: 2 },
+      // 2. Limits & Definitions (Reversed)
+      { section: 2, q: "\\lim_{h \\to 0} \\frac{f(x+h) - f(x)}{h} = \\dots", opts: ["f'(x)", "f(x)", "0"], ans: 0 },
+      { section: 2, q: "\\lim_{x \\to 0} \\frac{x}{\\sin(x)}", opts: ["0", "1", "\\infty"], ans: 1 },
+      { section: 2, q: "\\text{Find the limit form for: } 1", opts: ["\\lim_{x \\to 0} \\frac{\\cos(x)}{x}", "\\lim_{x \\to 0} \\frac{\\sin(x)}{x}", "\\lim_{x \\to 0} \\frac{1 - \\cos(x)}{x}"], ans: 1 },
+      { section: 2, q: "\\text{Find the limit form for: } 0", opts: ["\\lim_{x \\to 0} \\frac{1 - \\cos(x)}{x}", "\\lim_{x \\to 0} \\frac{\\sin(x)}{x}", "\\lim_{x \\to \\infty} \\frac{\\sin(x)}{x}"], ans: 0 },
+      { section: 2, q: "\\text{Which expression represents } f'(x) \\text{?}", opts: ["\\lim_{h \\to 0} \\frac{f(x+h) - f(x)}{h}", "\\lim_{x \\to 0} \\frac{\\sin(x)}{x}", "\\lim_{h \\to 0} \\frac{f(x) - f(h)}{h}"], ans: 0 },
+      { section: 2, q: "\\text{What is the limit of } \\frac{\\sin(x)}{x} \\text{ as } x \\to 0 \\text{?}", opts: ["\\infty", "1", "0"], ans: 1 },
 
       // 3. Derivative Rules
       { section: 3, q: "\\frac{d}{dx}[x^n]", opts: ["n x^{n-1}", "\\frac{x^{n+1}}{n+1}", "n x^{n+1}"], ans: 0 },
