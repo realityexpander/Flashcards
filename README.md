@@ -2,6 +2,9 @@
 
 Flashcards for the essential parts of Calculus I that are crucial for success in the class.
 
+<img width="485" alt="image" src="https://github.com/user-attachments/assets/7188c423-af13-42c5-89e9-974f36c3c2e9" />
+
+
 ## Two versions of the app
   * ### SECTIONED - https://realityexpander.github.io/Flashcards/sectioned.html
     * Only questions in a particular section are offered.
