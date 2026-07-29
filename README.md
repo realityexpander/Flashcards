@@ -4,7 +4,9 @@ Flashcards for the parts of Calculus that need to be memorized.
 
 ## Two versions of the app
   * All questions are randomly offered.
+    * https://realityexpander.github.io/Flashcards/linear.html  
   * Only questions in a particular section are offered.
+    * https://realityexpander.github.io/Flashcards/sectioned.html
 
 # Calculus I Mastery Flashcards
 
