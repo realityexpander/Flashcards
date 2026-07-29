@@ -7,6 +7,10 @@ Flashcards for the parts of Calculus that need to be memorized.
     * https://realityexpander.github.io/Flashcards/linear.html  
   * Only questions in a particular section are offered.
     * https://realityexpander.github.io/Flashcards/sectioned.html
+   
+### Conversation that generated the App
+  * https://share.gemini.google/X0NRzjit0m43 (public link)
+  * https://gemini.google.com/app/c584261d84ab7c09 (private link)
 
 # Calculus I Mastery Flashcards
 
