@@ -116,6 +116,9 @@
     <div id="feedback"></div>
     <button id="next" onclick="nextCard()">Next Card</button>
     <p>
+    <!-- Added Stats Tracker -->
+    <div id="stats">Score: <span id="score">0 / 0</span> | <span id="percent">0</span>% Correct</div>
+    <p>
     <div id="about">©2026 Chris Athanas. Link to source: <a href="https://github.com/realityexpander/Flashcards/">github</a></div>
   </div>
 
@@ -229,6 +232,10 @@
     let current = 0;
     let currentCorrectIdx = 0;
 
+    // Variables for tracking score
+    let totalAttempted = 0;
+    let totalCorrect = 0;
+
     function setSection(sectionNum) {
       currentSection = sectionNum;
       
@@ -243,6 +250,12 @@
       }
       
       nextCard();
+    }
+
+    function updateStats() {
+      const percent = totalAttempted === 0 ? 0 : Math.round((totalCorrect / totalAttempted) * 100);
+      document.getElementById('score').innerText = `${totalCorrect} / ${totalAttempted}`;
+      document.getElementById('percent').innerText = `${percent}`;
     }
 
     function renderMath(str, element, displayMode = false) {
@@ -287,8 +300,14 @@
       const buttons = document.querySelectorAll('.btn');
       
       buttons.forEach(b => b.disabled = true);
+
+      // Increment attempt counter
+      totalAttempted++;
       
       if (isCorrect) {
+        // Increment correct counter
+        totalCorrect++;
+        
         btnEl.classList.add('correct');
         document.getElementById('feedback').innerText = 'Correct!';
         document.getElementById('feedback').style.color = '#198754';
@@ -298,6 +317,9 @@
         document.getElementById('feedback').innerText = 'Incorrect.';
         document.getElementById('feedback').style.color = '#dc3545';
       }
+
+      // Update score display
+      updateStats();
       
       document.getElementById('next').style.display = 'inline-block';
     }
