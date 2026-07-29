@@ -43,7 +43,7 @@ The flashcards are divided into the following sections, aligning with standard C
 4. **Integration & Antiderivatives:** The Fundamental Theorem of Calculus and basic indefinite integrals.
 5. **Geometry Formulas for Applications:** Area, volume, and surface area formulas necessary for related rates and optimization problems.
 6. **Grab Bag:** A randomized mix of all the above categories for comprehensive review.
-7. **7. π ratio <-> °Degrees** Memorize the pi ratios to degrees, and degrees to ratios of pi.
+7. **π ratio <-> °Degrees** Memorize the pi ratios to degrees, and degrees to ratios of pi.
 
 ## How to Use
 Because this is a standalone HTML file, there are no installations, dependencies, or build steps required.
