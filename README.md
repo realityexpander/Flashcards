@@ -37,7 +37,7 @@ The flashcards are divided into the following sections, aligning with standard C
 5. **Geometry Formulas for Applications:** Area, volume, and surface area formulas necessary for related rates and optimization problems.
 6. **Grab Bag:** A randomized mix of all the above categories for comprehensive review.
 7. **π ratio <-> °Degrees options in Quadrant** Memorize the pi ratios to degrees, and degrees to ratios of pi.  Each option is within the correct quadrant. 
-8. **π ratio <-> °Degrees** Memorize the pi ratios to degrees, and degrees to ratios of pi. Each option could be within any quadrant. 
+8. **π ratio <-> °Degrees opting in any Quadrant** Memorize the pi ratios to degrees, and degrees to ratios of pi. Each option could be within any quadrant. 
 
 ## How to Use
 Because this is a standalone HTML file, there are no installations, dependencies, or build steps required.
