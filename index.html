@@ -186,6 +186,28 @@
       { section: 3, q: "\\frac{d}{dx}[\\arctan(x)]", opts: ["\\frac{1}{1 + x^2}", "\\frac{1}{\\sqrt{1 - x^2}}", "\\frac{1}{|x|\\sqrt{x^2 - 1}}"], ans: 0 },
       { section: 3, q: "\\frac{d}{dx}[\\text{arcsec}(x)]", opts: ["\\frac{1}{1 + x^2}", "\\frac{1}{\\sqrt{1 - x^2}}", "\\frac{1}{|x|\\sqrt{x^2 - 1}}"], ans: 2 },
 
+      // 3. Derivative Rules (Reversed: Result to Definition)
+      { section: 3, q: "n x^{n-1} = \\dots", opts: ["\\frac{d}{dx}[x^n]", "\\frac{d}{dx}[x^{n-1}]", "\\frac{d}{dx}[n^x]"], ans: 0 },
+      { section: 3, q: "f'(x)g(x) + f(x)g'(x) = \\dots", opts: ["\\frac{d}{dx}[f(x) + g(x)]", "\\frac{d}{dx}[f(x)g(x)]", "\\frac{d}{dx}[f(g(x))]"], ans: 1 },
+      { section: 3, q: "\\frac{f'(x)g(x) - f(x)g'(x)}{[g(x)]^2} = \\dots", opts: ["\\frac{d}{dx}\\left[\\frac{g(x)}{f(x)}\\right]", "\\frac{d}{dx}\\left[\\frac{f(x)}{g(x)}\\right]", "\\frac{d}{dx}[f(x)g(x)]"], ans: 1 },
+      { section: 3, q: "f'(g(x)) g'(x) = \\dots", opts: ["\\frac{d}{dx}[f(x)g(x)]", "\\frac{d}{dx}[f(g(x))]", "\\frac{d}{dx}[g(f(x))]"], ans: 1 },
+      { section: 3, q: "\\cos(x) = \\dots", opts: ["\\frac{d}{dx}[\\cos(x)]", "\\frac{d}{dx}[\\sin(x)]", "\\frac{d}{dx}[-\\sin(x)]"], ans: 1 },
+      { section: 3, q: "-\\sin(x) = \\dots", opts: ["\\frac{d}{dx}[\\sin(x)]", "\\frac{d}{dx}[\\cos(x)]", "\\frac{d}{dx}[-\\cos(x)]"], ans: 1 },
+      { section: 3, q: "\\sec^2(x) = \\dots", opts: ["\\frac{d}{dx}[\\tan(x)]", "\\frac{d}{dx}[\\sec(x)]", "\\frac{d}{dx}[\\cot(x)]"], ans: 0 },
+      { section: 3, q: "-\\csc^2(x) = \\dots", opts: ["\\frac{d}{dx}[\\tan(x)]", "\\frac{d}{dx}[\\csc(x)]", "\\frac{d}{dx}[\\cot(x)]"], ans: 2 },
+      { section: 3, q: "\\sec(x)\\tan(x) = \\dots", opts: ["\\frac{d}{dx}[\\sec(x)]", "\\frac{d}{dx}[\\tan(x)]", "\\frac{d}{dx}[\\csc(x)]"], ans: 0 },
+      { section: 3, q: "-\\csc(x)\\cot(x) = \\dots", opts: ["\\frac{d}{dx}[\\csc(x)]", "\\frac{d}{dx}[\\cot(x)]", "\\frac{d}{dx}[\\sec(x)]"], ans: 0 },
+      { section: 3, q: "e^x = \\dots", opts: ["\\frac{d}{dx}[e^x]", "\\frac{d}{dx}[\\ln(x)]", "\\frac{d}{dx}[x^e]"], ans: 0 },
+      { section: 3, q: "a^x \\ln(a) = \\dots", opts: ["\\frac{d}{dx}[x^a]", "\\frac{d}{dx}[a^x]", "\\frac{d}{dx}[e^x]"], ans: 1 },
+      { section: 3, q: "\\frac{1}{x} = \\dots", opts: ["\\frac{d}{dx}[e^x]", "\\frac{d}{dx}[\\log_a(x)]", "\\frac{d}{dx}[\\ln(x)]"], ans: 2 },
+      { section: 3, q: "\\frac{1}{x \\ln(a)} = \\dots", opts: ["\\frac{d}{dx}[\\ln(x)]", "\\frac{d}{dx}[\\log_a(x)]", "\\frac{d}{dx}[a^x]"], ans: 1 },
+      { section: 3, q: "\\frac{1}{\\sqrt{1 - x^2}} = \\dots", opts: ["\\frac{d}{dx}[\\arcsin(x)]", "\\frac{d}{dx}[\\arccos(x)]", "\\frac{d}{dx}[\\arctan(x)]"], ans: 0 },
+      { section: 3, q: "\\frac{-1}{\\sqrt{1 - x^2}} = \\dots", opts: ["\\frac{d}{dx}[\\arcsin(x)]", "\\frac{d}{dx}[\\arccos(x)]", "\\frac{d}{dx}[\\text{arccsc}(x)]"], ans: 1 },
+      { section: 3, q: "\\frac{1}{1 + x^2} = \\dots", opts: ["\\frac{d}{dx}[\\arctan(x)]", "\\frac{d}{dx}[\\text{arccot}(x)]", "\\frac{d}{dx}[\\arcsin(x)]"], ans: 0 },
+      { section: 3, q: "\\frac{-1}{1 + x^2} = \\dots", opts: ["\\frac{d}{dx}[\\arctan(x)]", "\\frac{d}{dx}[\\text{arccot}(x)]", "\\frac{d}{dx}[\\arccos(x)]"], ans: 1 },
+      { section: 3, q: "\\frac{1}{|x|\\sqrt{x^2 - 1}} = \\dots", opts: ["\\frac{d}{dx}[\\text{arcsec}(x)]", "\\frac{d}{dx}[\\text{arccsc}(x)]", "\\frac{d}{dx}[\\arctan(x)]"], ans: 0 },
+      { section: 3, q: "\\frac{-1}{|x|\\sqrt{x^2 - 1}} = \\dots", opts: ["\\frac{d}{dx}[\\text{arcsec}(x)]", "\\frac{d}{dx}[\\text{arccsc}(x)]", "\\frac{d}{dx}[\\arccos(x)]"], ans: 1 },
+      
       // 4. Integration & Antiderivatives
       { section: 4, q: "\\frac{d}{dx} \\left[ \\int_{a}^{x} f(t) \\, dt \\right]", opts: ["f(x)", "f(x) - f(a)", "F(x)"], ans: 0 },
       { section: 4, q: "\\int_{a}^{b} f(x) \\, dx", opts: ["F(b) - F(a)", "f(b) - f(a)", "F(a) - F(b)"], ans: 0 },
